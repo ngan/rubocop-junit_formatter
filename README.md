@@ -15,7 +15,7 @@ $ rubocop --require rubocop/formatter/junit_formatter \
           --out /tmp/test-results/rubocop.xml
 ```
 
-You can even have use multiple formatters (see RuboCop manual). This is good for CIs where you want to stdout to be a more human readable formatter and output the JUnit XML to a file.
+You can even have use multiple formatters (see [RuboCop manual](https://github.com/rubocop-hq/rubocop/blob/master/manual/formatters.md#formatters)). This is good for CIs where you want to stdout to be a more human readable formatter and output the JUnit XML to a file.
 
 ## Installation
 
