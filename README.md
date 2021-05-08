@@ -22,7 +22,7 @@ You can even have use multiple formatters (see [RuboCop manual](https://github.c
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rubocop-junit_formatter"
+gem 'rubocop-junit_formatter'
 ```
 
 You'll probably only need to scope it to the `test` group.
